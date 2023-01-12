@@ -27,7 +27,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Result:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iox-E2-h1T">
-                                <rect key="frame" x="16" y="311" width="361" height="50"/>
+                                <rect key="frame" x="16" y="310.33333333333331" width="361" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="L1z-xu-qiq"/>
                                 </constraints>
@@ -94,7 +94,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.70980393890000004" green="0.70980393890000004" blue="0.70588237050000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="6a3-fw-04W" firstAttribute="trailing" secondItem="bSz-BQ-dft" secondAttribute="trailing" id="1Xc-ou-6vh"/>
                             <constraint firstItem="gL5-CM-NMZ" firstAttribute="top" secondItem="D4l-3q-J6n" secondAttribute="bottom" constant="7.6666666666666856" id="3Hh-9F-GIH"/>
