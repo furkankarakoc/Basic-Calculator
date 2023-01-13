@@ -57,7 +57,9 @@ class ViewController: UIViewController {
     }
     
     @IBAction func clearClicked(_ sender: Any) {
-        resultLabel.text = "Result: 3"
+        resultLabel.text = "Result: "
+        firstText.text = ""
+        secondText.text = ""
     }
 }
 
