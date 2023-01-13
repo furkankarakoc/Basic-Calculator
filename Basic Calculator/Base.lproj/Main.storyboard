@@ -27,7 +27,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Result:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iox-E2-h1T">
-                                <rect key="frame" x="16" y="310.33333333333331" width="361" height="50"/>
+                                <rect key="frame" x="16" y="329.66666666666669" width="361" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="L1z-xu-qiq"/>
                                 </constraints>
@@ -81,11 +81,11 @@
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gL5-CM-NMZ">
-                                <rect key="frame" x="178" y="271" width="36" height="35"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gL5-CM-NMZ">
+                                <rect key="frame" x="171" y="279" width="51" height="34.333333333333314"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="C">
+                                <buttonConfiguration key="configuration" style="plain" title="CE">
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -97,19 +97,19 @@
                         <color key="backgroundColor" red="0.70980393890000004" green="0.70980393890000004" blue="0.70588237050000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="6a3-fw-04W" firstAttribute="trailing" secondItem="bSz-BQ-dft" secondAttribute="trailing" id="1Xc-ou-6vh"/>
-                            <constraint firstItem="gL5-CM-NMZ" firstAttribute="top" secondItem="D4l-3q-J6n" secondAttribute="bottom" constant="7.6666666666666856" id="3Hh-9F-GIH"/>
+                            <constraint firstItem="gL5-CM-NMZ" firstAttribute="top" secondItem="D4l-3q-J6n" secondAttribute="bottom" constant="15.666666666666686" id="3Hh-9F-GIH"/>
                             <constraint firstItem="6a3-fw-04W" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="3dr-Tz-8Ex"/>
-                            <constraint firstItem="gL5-CM-NMZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="178" id="5TQ-N5-L9a"/>
+                            <constraint firstItem="gL5-CM-NMZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="171" id="5TQ-N5-L9a"/>
                             <constraint firstItem="6a3-fw-04W" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="5rv-Dc-dMM"/>
                             <constraint firstItem="bSz-BQ-dft" firstAttribute="top" secondItem="6a3-fw-04W" secondAttribute="bottom" constant="34" id="FY5-03-wzm"/>
                             <constraint firstItem="D4l-3q-J6n" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="65" id="Jc5-q7-Q2J"/>
                             <constraint firstItem="D4l-3q-J6n" firstAttribute="top" secondItem="bSz-BQ-dft" secondAttribute="bottom" constant="29" id="OIE-IN-bLV"/>
                             <constraint firstItem="6a3-fw-04W" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="39" id="Q4w-eP-gSL"/>
                             <constraint firstItem="6a3-fw-04W" firstAttribute="leading" secondItem="bSz-BQ-dft" secondAttribute="leading" id="aaw-1Q-Oh4"/>
-                            <constraint firstItem="iox-E2-h1T" firstAttribute="top" secondItem="gL5-CM-NMZ" secondAttribute="bottom" constant="5" id="hKO-Xh-Sqr"/>
-                            <constraint firstItem="bSz-BQ-dft" firstAttribute="trailing" secondItem="iox-E2-h1T" secondAttribute="trailing" id="j2s-36-PF1"/>
+                            <constraint firstItem="iox-E2-h1T" firstAttribute="top" secondItem="gL5-CM-NMZ" secondAttribute="bottom" constant="16.333333333333314" id="hKO-Xh-Sqr"/>
+                            <constraint firstItem="bSz-BQ-dft" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="iox-E2-h1T" secondAttribute="trailing" id="j2s-36-PF1"/>
                             <constraint firstItem="D4l-3q-J6n" firstAttribute="centerX" secondItem="gL5-CM-NMZ" secondAttribute="centerX" id="jJC-Xe-MYQ"/>
-                            <constraint firstItem="bSz-BQ-dft" firstAttribute="leading" secondItem="iox-E2-h1T" secondAttribute="leading" id="oWq-Ra-V5z"/>
+                            <constraint firstItem="bSz-BQ-dft" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="iox-E2-h1T" secondAttribute="leading" id="oWq-Ra-V5z"/>
                             <constraint firstItem="gL5-CM-NMZ" firstAttribute="centerX" secondItem="iox-E2-h1T" secondAttribute="centerX" id="vE3-G4-Shr"/>
                         </constraints>
                     </view>
